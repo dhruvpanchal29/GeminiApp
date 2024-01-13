@@ -42,7 +42,7 @@ def input_image_setup(uploaded_file):
 st.set_page_config(page_title="Gemini Image Processing")
 
 st.header("Gemini App ♊")
-input=st.text_input("Prompt: ",key="input")
+input=st.text_input("Your Prompt: ",key="input")
 submit=st.button("Describe the Image")
 uploaded_file = st.file_uploader("Upload an image...", type=["jpg", "jpeg", "png"])
 image=""   
