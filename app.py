@@ -52,15 +52,11 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image.", use_column_width=True)
 
 
-
-
 input_prompt = """
                You are an expert in understanding images.
                You will tell everything about the images in bullet points and will not miss any details.
                You will explain the image in extreme detail.
                """
-
-## If ask button is clicked
 
 if submit:
     image_data = input_image_setup(uploaded_file)
